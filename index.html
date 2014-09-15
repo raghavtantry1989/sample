@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <title>ADP Dealer Services</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- #DSCOMMENT: Single CSS compiled from DSFOS Platform-based Twitter Bootstrap base & responsive LESS -->
+  <link rel="stylesheet" href="/coms/globalstyles/css/ds-host-base.css" />
+</head>
+<body ng-controller="adp.ds.host.mainController">
+<ds-wait-indicator>
+  <div class="ds-wait-preloader"><span class="ds-icon icon-spinner icon-spin icon-3x"></span></div>
+</ds-wait-indicator>
+<div id="ds-host-wrapper" ng-include="screenUrl">
+</div><!-- #END #ds-host-wrapper -->
+<script src="/coms/libraries/lib/jquery.min.js"></script>
+<script src="/coms/libraries/lib/angular.min.js"></script>
+<script src="/coms/libraries/lib/require.min.js"
+        data-main="coms/host/dist/adp.ds.host.js"
+        data-host-config="coms/host/dist/adp.ds.hostConfig"
+        data-host-config-path="http://localhost:57305/api/host/config"></script>
+</body>
+</html>
