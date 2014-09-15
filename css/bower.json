@@ -1,0 +1,29 @@
+{
+  "name": "searchfilter",
+  "private": true,
+  "dependencies": {
+  	"host": "http://stash.ds.adp.com/scm/fosplf/host-ui.git#develop"
+  },
+  "ignore": [
+  	"Analysis",
+  	"Build",
+  	"Deployment",
+  	".gitignore",
+  	"*.sln",
+  	"*.vssscc",
+  	"sonar-project.properties",
+  	"adp.ds.ui.searchFilter/build",
+  	"adp.ds.ui.searchFilter/demo",
+  	"adp.ds.ui.searchFilter/docs",
+  	"adp.ds.ui.searchFilter/host",
+  	"adp.ds.ui.searchFilter/searchFilter",
+  	"adp.ds.ui.searchFilter/build",
+  	"adp.ds.ui.searchFilter/.tfignore",  	
+  	"adp.ds.ui.searchFilter/Gruntfile.js",
+  	"adp.ds.ui.searchFilter/index.html",
+  	"adp.ds.ui.searchFilter/jshintrc.json",
+  	"adp.ds.ui.searchFilter/package.json",
+  	"adp.ds.ui.searchFilter/README.md",
+  	"adp.ds.ui.searchFilter/Web.config"
+  ]
+}
